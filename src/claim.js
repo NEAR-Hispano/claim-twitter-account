@@ -61,7 +61,7 @@ async function seedPhrase() {
 
     if(response == "-1") {
         console.log('user not found on the list');
-        document.querySelector('#current-message').innerHTML = "Usuario no encontrado en la lista";
+        //document.querySelector('#current-message').innerHTML = "Usuario no encontrado en la lista";
     }
     else {
         accountId = document.querySelector('#username').value;
